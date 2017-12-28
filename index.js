@@ -6,7 +6,7 @@ function theBeatlesPlay (musicians, instruments){
 
   for (i = string(musicians[0]); i < musicians.length; i++){
     for (j = string(instruments[0]); j < instruments.length; j++){
-      console.log("x += musicians[i] + instruments[j]");
+      x += console.log(${musicians[i]} + "plays" + ${instruments[j]})
     }
 
   }
