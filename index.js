@@ -1,10 +1,11 @@
 function theBeatlesPlay (musicians, instruments){
-  var musicians = new Array("John Lennon", "Paul McCartney", "Ringo Starr", "George Harrison");
-  var instruments = new Array("Guitar", "Piano", "Drums", "Sitar");
   var x = [];
+  //var musicians = new Array("John Lennon", "Paul McCartney", "Ringo Starr", "George Harrison");
+  //var instruments = new Array("Guitar", "Piano", "Drums", "Sitar");
+  
 
-  for (i = musicians[0]; i < musicians.length; i++){
-    x += musicians[i] + "";
+  for (i = string(musicians[0]); i < musicians.length; i++){
+    x += musicians[i] + " ";
   }
 }
 
